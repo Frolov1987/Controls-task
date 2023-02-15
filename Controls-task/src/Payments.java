@@ -24,7 +24,7 @@ public class Payments {
         pay = scanner.nextDouble();
 
         if (pay == 1) {
-            System.out.printf("Оплата наличными USD %.2f ", payCash);
+            System.out.printf("Оплата наличными1 USD %.2f ", payCash);
         } else if (pay == 2) {
             payPal = payCash + (payCash * 5 / 100);
             System.out.printf("Оплата на расчетный счет USD %.2f ", payPal);
