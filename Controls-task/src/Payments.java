@@ -11,6 +11,7 @@ public class Payments {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
+
         System.out.print("Введите1 сумму оплаты USD ");
         payCash = Double.parseDouble(String.valueOf(scanner.nextDouble()));
         System.out.println("""
