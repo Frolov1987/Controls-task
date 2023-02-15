@@ -11,14 +11,14 @@ public class Payments {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Введите сумму оплаты USD ");
+        System.out.print("Введите1 сумму оплаты USD ");
         payCash = Double.parseDouble(String.valueOf(scanner.nextDouble()));
         System.out.println("""
                 Hello! My funny human
                 Выберете вариант оплаты :
                 1 - Оплата наличными
                 2 - Оплата на расчетный счет
-                3 - Оплата на карту """);
+                3 - Оплата на карту""");
 
         pay = scanner.nextDouble();
 
